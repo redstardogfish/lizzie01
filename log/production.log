@@ -1,0 +1,947 @@
+
+
+Processing ApplicationController#index (for 192.168.1.36 at 2009-10-12 12:49:16) [GET]
+
+ActionController::RoutingError (No route matches "/~Tony/lizzie01/public" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /Users/Tony/rails/lizzie01/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.1.36 at 2009-10-12 12:49:49) [GET]
+
+ActionController::RoutingError (No route matches "/~Tony/lizzie01/public/" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /Users/Tony/rails/lizzie01/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.1.36 at 2009-10-12 12:50:14) [GET]
+
+ActionController::RoutingError (No route matches "/~Tony/lizzie01" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /Users/Tony/rails/lizzie01/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.1.36 at 2009-10-12 12:51:16) [GET]
+
+ActionController::RoutingError (No route matches "/~Tony/lizzie01/app/views/main" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /Users/Tony/rails/lizzie01/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.1.36 at 2009-10-12 12:51:26) [GET]
+
+ActionController::RoutingError (No route matches "/~Tony/lizzie01/app/views/main" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /Users/Tony/rails/lizzie01/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.1.36 at 2009-10-12 12:52:07) [GET]
+
+ActionController::RoutingError (No route matches "/~Tony/lizzie01/app/views/templates/application.html.erb" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /Users/Tony/rails/lizzie01/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.1.37 at 2009-10-12 14:50:27) [GET]
+
+ActionController::RoutingError (No route matches "/~Tony" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering /Users/Tony/rails/lizzie01/public/404.html (404 Not Found)
+
+
+Processing MainController#index (for ::1 at 2009-10-16 11:58:19) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 41ms (View: 39, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for ::1 at 2009-10-16 11:58:19) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for ::1 at 2009-10-16 12:10:45) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 36ms (View: 33, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for ::1 at 2009-10-16 12:10:46) [GET]
+Rendering template within layouts/application
+Rendering main/index
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-19 15:08:22) [GET]
+  Parameters: {"left"=>"728454990", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1830-gsudg5pn5cip", "upload_only"=>"0", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"1zwbtnh5", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-19 15:15:28) [GET]
+  Parameters: {"info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   "}
+
+ActionController::RoutingError (No route matches "/scrape.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-19 16:16:35) [GET]
+  Parameters: {"left"=>"724064078", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1830-912rcsd8s7lo", "upload_only"=>"0", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"guycb916", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-19 16:18:21) [GET]
+  Parameters: {"info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   "}
+
+ActionController::RoutingError (No route matches "/scrape.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-24 23:04:15) [GET]
+  Parameters: {"left"=>"724703054", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1830-fxhby15oebkv", "upload_only"=>"0", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"0kpyjwpd", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-24 23:05:24) [GET]
+  Parameters: {"left"=>"724533248", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-sj85zvsxhvb6", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"og7wrg7b", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-24 23:07:15) [GET]
+  Parameters: {"info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ  "}
+
+ActionController::RoutingError (No route matches "/scrape.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-25 04:32:05) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-sj85zvsxhvb6", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "corrupt"=>"1048576", "downloaded"=>"726357838", "compact"=>"1", "key"=>"og7wrg7b", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-27 14:36:16) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-43zsx24ikkhw", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"kmaofymx", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-27 14:36:35) [GET]
+  Parameters: {"info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   "}
+
+ActionController::RoutingError (No route matches "/scrape.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-27 14:46:59) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ  `", "peer_id"=>"-TR1910-frwnkw01v7l7", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"r4kf67cy", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-27 14:48:39) [GET]
+  Parameters: {"info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   "}
+
+ActionController::RoutingError (No route matches "/scrape.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-02 13:39:39) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-aimyji41kklt", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"xp7hg5uw", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-02 13:41:35) [GET]
+  Parameters: {"info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   "}
+
+ActionController::RoutingError (No route matches "/scrape.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-04 08:25:18) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-k4t6nb0jx0x2", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"av6ooida", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-04 08:27:53) [GET]
+  Parameters: {"info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   "}
+
+ActionController::RoutingError (No route matches "/scrape.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-04 09:35:07) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-k4t6nb0jx0x2", "uploaded"=>"0", "numwant"=>"0", "event"=>"stopped", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"av6ooida", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-04 19:10:35) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-fsucp0la3nc1", "uploaded"=>"0", "numwant"=>"0", "event"=>"stopped", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"av6ooida", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-04 19:27:36) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-fsucp0la3nc1", "uploaded"=>"0", "numwant"=>"0", "event"=>"stopped", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"av6ooida", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-05 08:00:49) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-yusmmtqb3kzs", "uploaded"=>"0", "numwant"=>"0", "event"=>"stopped", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"av6ooida", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-09 17:02:42) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-ked9nsukviwe", "uploaded"=>"0", "numwant"=>"200", "event"=>"started", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"sgx0ypyf", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-09 17:03:07) [GET]
+  Parameters: {"info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   "}
+
+ActionController::RoutingError (No route matches "/scrape.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-09 23:55:42) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-ked9nsukviwe", "uploaded"=>"130602662", "numwant"=>"0", "event"=>"stopped", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"sgx0ypyf", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-11 07:37:48) [GET]
+  Parameters: {"left"=>"0", "info_hash"=>"i\241\242\260t\f\"y<K~\026\251Ø¨\267?!ùÂ   ", "peer_id"=>"-TR1910-0tgprdrzddnv", "uploaded"=>"130602662", "numwant"=>"0", "event"=>"stopped", "port"=>"52345", "downloaded"=>"0", "compact"=>"1", "key"=>"sgx0ypyf", "supportcrypto"=>"1"}
+
+ActionController::RoutingError (No route matches "/announce.php" with {:method=>:get}):
+  passenger (2.2.5) lib/phusion_passenger/rack/request_handler.rb:95:in `process_request'
+  passenger (2.2.5) lib/phusion_passenger/abstract_request_handler.rb:207:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:378:in `start_request_handler'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:336:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/utils.rb:183:in `safe_fork'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:163:in `start'
+  passenger (2.2.5) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:262:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:256:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:154:in `spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/spawn_manager.rb:287:in `handle_spawn_application'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `__send__'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:352:in `main_loop'
+  passenger (2.2.5) lib/phusion_passenger/abstract_server.rb:196:in `start_synchronously'
+
+Rendering rescues/layout (not_found)

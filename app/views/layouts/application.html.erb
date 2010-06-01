@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title><%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'reset-fonts-grids', 'etrevan'%> 
+  <%= javascript_include_tag :defaults %>
+  <%= javascript_include_tag 'jquery.min', 'jquery.cycle.all.2.72'%>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});
+</script>
+
+
+</head>
+<body>
+
+	
+<div id="container">
+  <div id="flourish">&nbsp;</div>
+	<div id="top">
+		<div id="logospace">
+			<%= link_to image_tag("et_signature_trans.png", :id => "signature"), :controller => "main", :action => "index"  %><br>
+			<%= link_to image_tag(@pic, :id => "civcel"), :controller => "main", :action => "index"  %> <%= @page_title %>
+		</div><% if @quote%>
+		<div id="quote">
+			“<%= @quote%>”
+		</div><%end%>
+		<div id="nav">
+			<%= link_to "we are getting married", :controller => "main", :action => "marriage"  %>&nbsp;&nbsp;&nbsp;&nbsp; <%= link_to "we are naming our baby", :controller => "main", :action => "naming"  %> &nbsp;&nbsp;&nbsp;&nbsp; <%= link_to "we are organising a funeral", :controller => "main", :action => "funeral"  %> &nbsp;&nbsp;&nbsp;&nbsp; <%= link_to "other ceremonies", :controller => "main", :action => "other"  %> &nbsp;&nbsp;&nbsp;&nbsp; <%= link_to "contact elizabeth", :controller => "main", :action => "contact"  %><br>
+			<br>
+		</div>
+	</div>
+	<div id="main">
+		<%= yield %>
+	</div>
+	<div id="finalnav">
+		<%= link_to "Please feel free to email me", :controller => "main", :action => "contact" %>
+	</div>
+</div>
+</body>
+</html>

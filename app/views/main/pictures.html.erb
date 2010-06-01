@@ -1,0 +1,6 @@
+<div class = "body">
+  <%@photos.each do |photo|%>
+  <%= image_tag photo.photo.url(:small) %>
+  <% end %>
+
+</div>

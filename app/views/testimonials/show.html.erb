@@ -1,0 +1,19 @@
+
+<p>
+  <b>From:</b>
+  <%=h @testimonial.from %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%=h @testimonial.text %>
+</p>
+
+<p>
+  <b>Contact:</b>
+  <%=h @testimonial.contact %>
+</p>
+
+
+<%= link_to 'Edit', edit_testimonial_path(@testimonial) %> |
+<%= link_to 'Back', testimonials_path %>
